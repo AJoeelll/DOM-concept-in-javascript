@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="sol.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 15px 25px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            color: white;
+        }
+        .r {
+            background-color: red;
+        }
+        .g {
+            background-color: green;
+        }
+        .b {
+            background-color: blue;
+        }
+        .reset {
+            background-color: gray;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="Red1()" class="r" id="red">Red</button>
+    <button onclick="green1()" class="g" id="green">Green</button>
+    <button onclick="blue1()" class="b" id="blue">Blue</button>
+    <button onclick="reset()" class="reset">Reset</button>
+</body>
+</html>
